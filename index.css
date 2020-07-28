@@ -1,4 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,500i,700|Spectral:500&display=swap');
+@font-face {
+  font-family: "Mazius";
+  src: url("MAZIUSREVIEW20.09-Extraitalic.woff2") format("woff2"),
+       url("MAZIUSREVIEW20.09-Extraitalic.woff") format("woff");
+}
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,200;0,700;1,500&display=swap');
 
 /* ---- layout styles ---- */
 
@@ -35,15 +41,16 @@ body {
 
 h1 {
   color: #212121;
-  font-family: "Spectral";
-  font-size: 4em;
+  font-family: "Mazius";
+  font-size: 4.2em;
+  margin-bottom: 48px;
 }
 
 p {
   color: #212121;
   font-family: "IBM Plex Mono";
   font-size: 1.4em;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 1.7;
   padding-bottom: 15px;
 }
