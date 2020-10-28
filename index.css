@@ -10,7 +10,8 @@
 
 body {
   padding: 3% 3%;
-  background-color: #FAF3EF;
+  /* background-color: #FAF3EF; */
+  background: linear-gradient(146.2deg, #FAF3EF -3.18%, #F6E3D9 122.5%);
 }
 
 .content {
