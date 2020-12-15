@@ -4,7 +4,7 @@
        url("MAZIUSREVIEW20.09-Extraitalic.woff") format("woff");
 }
 
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,200;0,700;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,300;0,700;1,500&display=swap');
 
 
 /* ---- layout styles ---- */
@@ -52,7 +52,7 @@ p {
   color: #212121;
   font-family: "IBM Plex Mono";
   font-size: 1.4em;
-  font-weight: 200;
+  font-weight: 300;
   line-height: 1.7;
   padding-bottom: 15px;
 }
