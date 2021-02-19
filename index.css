@@ -4,7 +4,7 @@
        url("MAZIUSREVIEW20.09-Extraitalic.woff") format("woff");
 }
 
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,300;0,700;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,700;1,500&display=swap');
 
 
 /* ---- layout styles ---- */
@@ -12,7 +12,7 @@
 body {
   padding: 3% 3%;
   /* background-color: #FAF3EF; */
-  background: linear-gradient(146.2deg, #FAF3EF -3.18%, #F6E3D9 122.5%);
+  background-color: #052719;
 }
 
 .content {
@@ -42,15 +42,15 @@ body {
 /* ---- text styles ---- */
 
 h1 {
-  color: #212121;
+  color: #F6C3AB;
   font-family: "Mazius";
   font-size: 5.4em;
   margin-bottom: 48px;
 }
 
 p {
-  color: #212121;
-  font-family: "IBM Plex Mono";
+  color: #F6C3AB;
+  font-family: "Inter";
   font-size: 1.4em;
   font-weight: 300;
   line-height: 1.7;
@@ -59,35 +59,34 @@ p {
 
 .text > p > a {
   text-decoration: underline;
-  font-weight: 500;
-  font-style: italic;
+  font-weight: 700;
   cursor: pointer;
-  color: #212121;
+  color: #F6C3AB;
 }
 
 .text > p > a:hover,
 .text > p > a:focus {
   cursor: pointer;
   text-decoration: underline;
-  font-style: normal;
+  font-style: italic;
   font-weight: 700;
-  color: #212121;
+  color: #F6C3AB;
   border: none;
   outline: none;
 }
 
 .text > p > a:visited {
   cursor: pointer;
-  color: #212121;
+  color: #F6C3AB;
 }
 
 .icons > a > i {
   font-size: 30px;
-  color: #212121;
+  color: #F6C3AB;
   margin: 8px;
 }
 
 .icons > a > i:visited {
-  color: #212121;
+  color: #F6C3AB;
   cursor: pointer;
 }
